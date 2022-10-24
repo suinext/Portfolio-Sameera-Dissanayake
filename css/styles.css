@@ -59,7 +59,7 @@ a:hover {
 .top-container {
   background-color: #63a4ff;
   position: relative;
-  /* padding-top: 100px; */
+  padding-top: 100px; 
 }
 
 .middle-container {
@@ -89,8 +89,9 @@ a:hover {
 }
 
 .intro {
-  width: 30%;
-  margin: auto;
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
 }
 
 .contact-message {
