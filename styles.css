@@ -62,8 +62,13 @@ a:hover {
   /* padding-top: 100px;  */
 }
 
+.hero-title{
+  padding: 1rem;
+}
+
 .middle-container {
   margin: 100px 0;
+  
 }
 
 .bottom-container {
@@ -75,13 +80,14 @@ a:hover {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
-
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .skills {
   background-color: #63a4ff;
-  color: #ffffff;
+  color: #ffffff; 
 }
 
 .pro {
@@ -125,7 +131,6 @@ a:hover {
 }
 
 .imagecircle {
-  margin-right: 30px;
   border-radius: 50%;
 }
 
