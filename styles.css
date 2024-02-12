@@ -10,7 +10,7 @@ h1 {
   color: #004ba0;
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
-  font-family: 'Lobster', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
@@ -64,10 +64,11 @@ a:hover {
 
 .hero-title{
   padding: 1rem;
+  text-transform: uppercase;
 }
 
 .middle-container {
-  margin: 100px 0;
+  margin: 5rem 0;
   
 }
 
@@ -95,9 +96,12 @@ a:hover {
 }
 
 .intro {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: larger;
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: 2rem auto 2rem auto;
   text-align: center;
+  color: #004ba0;
 }
 
 .contact-message {
