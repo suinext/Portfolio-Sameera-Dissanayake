@@ -7,7 +7,6 @@ body {
 }
 
 h1 {
-  color: #004ba0;
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
   font-family: 'Montserrat', sans-serif;
@@ -65,6 +64,13 @@ a:hover {
 .hero-title{
   padding: 1rem;
   text-transform: uppercase;
+  animation-name: example1;
+  animation-duration: 4s;
+}
+
+@keyframes example1 {
+  from {color: red;}
+  to {color: yellow;}
 }
 
 .middle-container {
@@ -178,3 +184,13 @@ a:hover {
   margin: 20px;
 }
 
+#pot {
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+}
+@keyframes example {
+  0%   { left:-100%; }
+  25%  { left:00%; }
+  
+}
