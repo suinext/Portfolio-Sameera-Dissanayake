@@ -194,3 +194,10 @@ a:hover {
   25%  { left:00%; }
   
 }
+.web-projects{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 3rem;
+}
