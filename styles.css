@@ -3,7 +3,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
-  font-size: 20px;
+  font-size: 1.5rem;
 }
 
 h1 {
@@ -11,6 +11,7 @@ h1 {
   margin: 50px auto 0 auto;
   font-family: 'Montserrat', sans-serif;
 }
+
 
 h2 {
   color: #004ba0;
@@ -95,6 +96,7 @@ a:hover {
 .skills {
   background-color: #63a4ff;
   color: #ffffff; 
+  padding: 5rem 0 2rem 0;
 }
 
 .pro {
@@ -136,7 +138,7 @@ a:hover {
 .code-image {
   width: 25%;
   float: right; 
-  margin-right: 30px;
+  margin-left: 30px;  
   border-radius: 50%;
 }
 
@@ -200,4 +202,44 @@ a:hover {
   justify-content: flex-start;
   align-items: flex-start;
   margin-left: 3rem;
+}
+
+@media (max-width: 450px) {
+  h1{
+    font-size: 1.8rem;
+    margin: 2rem;
+  }
+  .middle-container{
+    margin: 2rem 0;
+  }
+  .intro{
+    width: 90%;
+    font-size: 1.2rem;
+  }
+  p{
+    line-height: 1.8;
+    font-size: 1.2rem;
+  }
+  hr{
+    margin: 1rem auto;
+  }
+  h2{
+    font-size: 1.5rem;
+  }
+  h3{
+    font-size: 1.3rem;
+  }
+  .btn{
+    font-size: 1.2rem;
+  }
+  .skill-row{
+    width: 90%;
+    margin: 1rem auto 1rem auto;
+  }
+  body{
+    font-size: 1rem;
+  }
+  .bottom-container{
+    margin-bottom: 2rem;
+  }
 }
