@@ -105,7 +105,7 @@ a:hover {
 
 .intro {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: larger;
+  font-size: 1.5rem;
   width: 50%;
   margin: 2rem auto 2rem auto;
   text-align: center;
@@ -204,7 +204,7 @@ a:hover {
   margin-left: 3rem;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 1000px) {
   h1{
     font-size: 1.8rem;
     margin: 2rem;
@@ -240,4 +240,13 @@ a:hover {
     font-size: 1rem;
   }
   
+}
+
+@media (max-width:1290px) {
+  .intro{
+    width: 80%;
+  }
+  .skill-row{
+    width: 80%;
+  }
 }
