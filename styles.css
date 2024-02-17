@@ -397,10 +397,3 @@ div>ul>li:hover {
   transition-duration: 200ms;
 }
 
-.footer-link{
-  text-decoration: none;
-  transform: scale(1.2);
-  transform-origin: left;
-  transition-duration: 200ms;
-
-}
