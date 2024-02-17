@@ -316,39 +316,6 @@ a:hover {
   }
 }
 
-.scroll-watcher-two {
-  position: sticky;
-  z-index: 1000;
-  width: 50%;
-  top: 40%;
-  scale: 0 1;
-  transform-origin: bottom;
-  animation: scroll-watcher-two;
-  animation-timeline: scroll();
-}
-
-@keyframes scroll-watcher-two {
-  to {
-    scale: 1.5 1;
-  }
-}
-
-.scroll-watcher-three {
-  position: sticky;
-  z-index: 1000;
-  width: 50%;
-  top: 40%;
-  scale: 0 1;
-  transform-origin: bottom;
-  animation: scroll-watcher-three;
-  animation-timeline: scroll();
-}
-
-@keyframes scroll-watcher-three {
-  to {
-    scale: 1 1;
-  }
-}
 @media (prefers-reduced-motion: no-preference) {
   div>img {
     scale: 0.3;
