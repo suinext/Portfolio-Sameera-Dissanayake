@@ -1,5 +1,14 @@
+:root{
+  --blue-98: #00010D;
+  --blue-93: #010626;
+  --blue-85: #03258C;
+  --blue-75: #1243A6;
+  --blue-65: #0F468C;
+  --image-blue: #2596be;
+}
+  
 body {
-  color: #1976d2;
+  color: var(--blue-85);
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -14,7 +23,7 @@ h1 {
 
 
 h2 {
-  color: #004ba0;
+  color: var(--blue-75);
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
@@ -22,7 +31,7 @@ h2 {
 }
 
 h3 {
-  color: #004ba0;
+  color: var(--blue-85);
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -46,7 +55,7 @@ hr {
 }
 
 a {
-  color: #004ba0;
+  color: var(--blue-85);
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
@@ -66,13 +75,11 @@ a:hover {
   text-decoration: none;
 }
 .top-container {
-  background-color: #63a4ff;
-  /* position: relative; */
-  /* padding-top: 100px;  */
+  background-color: var(--blue-65);
 }
 
 .hero-title {
-  background-image: linear-gradient(rgba(255, 255, 0, 0.511), rgba(124, 172, 164, 0.505));
+  background-image: linear-gradient(#FDFCFB, #E2D1C3);
   padding: 1rem;
   text-transform: uppercase;
   animation-name: example1;
@@ -82,11 +89,11 @@ a:hover {
 
 @keyframes example1 {
   from {
-    color: #63a4ff;
+    color: var(--blue-85);
   }
 
   to {
-    color: rgb(31, 29, 29);
+    color: var(--image-blue);
   }
 }
 
@@ -96,7 +103,7 @@ a:hover {
 }
 
 .bottom-container {
-  background-color: #63a4ff;
+  background-color: var(--image-blue);
   padding: 50px 0 20px;
 }
 
@@ -110,7 +117,7 @@ a:hover {
 }
 
 .skills {
-  background-color: #63a4ff;
+  background-color: var(--image-blue);
   color: #ffffff;
   padding: 5rem 0 2rem 0;
 }
@@ -125,7 +132,7 @@ a:hover {
   width: 50%;
   margin: 2rem auto 2rem auto;
   text-align: center;
-  color: #63a4ff;
+  color: var(--blue-65);
 }
 
 .contact-message {
@@ -169,7 +176,7 @@ a:hover {
 }
 
 .btn {
-  background: #63a4ff;
+  background: var(--image-blue);
   background-image: -webkit-linear-gradient(top, #2572de, #1356b4);
   background-image: -moz-linear-gradient(top, #2572de, #1356b4);
   background-image: -ms-linear-gradient(top, #2572de, #1356b4);
@@ -186,7 +193,7 @@ a:hover {
 }
 
 .btn:hover {
-  background: #356cba;
+  background: var(--blue-75);
   background-image: -webkit-linear-gradient(top, #356cba, #4a90f3);
   background-image: -moz-linear-gradient(top, #356cba, #356cba);
   background-image: -ms-linear-gradient(top, #356cba, #356cba);
@@ -198,7 +205,7 @@ a:hover {
 .web {
   border-style: solid;
   border-width: 10px;
-  border-color: #63a4ff;
+  border-color: var(--blue-65);
   margin: 20px;
 }
 
@@ -309,7 +316,7 @@ a:hover {
   position: fixed;
   top: 0;
   z-index: 1000;
-  background-color: #63a4ff;
+  background-color: var(--blue-98);
   width: 100%;
   scale: 0 1;
   transform-origin: left;
