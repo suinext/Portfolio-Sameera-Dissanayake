@@ -2,104 +2,70 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>pharmacy</title>
-    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-    <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sameera Dissanayake</title>
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles.css">
 
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #2596be;">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="top-nav-txt nav-item nav-link active" href="index.html">Home </a>
-                    <a class="top-nav-txt nav-item nav-link " href="portfolio.html">Portfolio<span
-                            class="sr-only">(current)</span></a>
-                    <a class="top-nav-txt nav-item nav-link" href="https://github.com/suinext">Github</a>
-                    <a class="top-nav-txt nav-item nav-link " href="portfolio.html">Pharmacy<span
-                            class="sr-only">(current)</span></a>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <div class="scroll-watcher">
-        
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #2596be;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="index.html">Home </a>
+        <a class="nav-item nav-link active" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link active" href="portfolio.html">Pharmacy<span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="https://github.com/suinext">Github</a>
+      </div>
     </div>
-    <div class="hero-title">
-        <h1 class="animation-from-right">
-            Department of Pharmacy (Teaching Hospital - Badulla)
-        </h1>
-    </div>
-    <img class="animation-from-left" src="images/Artboard 1.jpg" alt="Sameera-img" style="width:100%;">
-    <div class="middle-container">
-        <div class="profile" id="imageprofile" >
-            <img class="imagecircle" src="images/profile-pic.jpg" alt="Sameera-img" width="140" height="140">
-            <h2 class="animation-from-left">Hello.</h2>
-            <p class="intro">Hotline 0552222261
-            </p>
-        </div>
-        <hr>
-        <div class="skills">
-            <h2 class="animation-from-left">My Skills.</h2>
-            <h3 class="animation-from-right">Design & Development</h3>
+  </nav>
+  <div>
 
-            <div class="skill-row">
-
-                <p>Static websites with HTML5 and CSS, Wordpress websites with custom theme development or Elementor
-                    page builder or Wordpress block editor, Mobile Application development with Android+Java, Flutter
-                    are some of my
-                    programming skills.</p>
-                <img class="code-image" src="images\4911013_2517915.jpg" alt="code-image">
+    <ul class="web-projects">
+      <li><a rel="Website" href="http://suinext.free.nf/">
+          <h3>&#128522; Wordpress site built with Elementor page builder. &#128073; <span
+              style="color: crimson; font-size: smaller;">
+              Go to the website </span></h3>
+        </a></li>
+      <li><a rel="Website" href="https://suinext.github.io/simple-site-css/">
+          <h3>&#128522; HTML site with CSS styling. &#128073; <span style="color: crimson; font-size: smaller;"> Go to the website
+            </span></h3>
+        </a></li>
+      <li> <a rel="Website" href="https://suinext.github.io/Bootstrap-Site-One/">
+          <h3>&#128522; HTML site with Bootstrap styling. &#128073; <span style="color: crimson; font-size: smaller;"> Go to the
+              website </span></h3>
+        </a></li>
+    </ul>
 
 
-            </div>
-            <h3>Digital Marketing </h3>
+  </div>
 
-            <div class="skill-row">
 
-                <p>With the skills of coding when I tried to build my own websites I realised the biggest thing in
-                    Internet is none other than Digital Marketing. So I fully engaged in learning Digital Marketing
-                    skills such as Facebook Ads creation, Instagram
-                    Marketing, Pinterest, Twitter, Tiktok and Youtube marketing</p>
-                <img class="chilli-img" src="images/filename.jpg" alt="social-img">
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/sameera-dissanayake-3b0820184/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/Sameera41765244">Twitter</a>
+    <a class="footer-link" href="https://github.com/suinext">Github</a>
+    <p class="copyright">© Sameera Dissanayake</p>
+  </div>
 
-            </div>
-        </div>
-        <hr>
-        <div class="contact-me">
-            <h2 class="animation-from-right">Get In Touch</h2>
-            <h3 class="animation-from-left">If you want me to design yours also.</h3>
-            <p class="contact-message">Love my portfolio ? Let's talk about how awesome the coding is ! We can code
-                while we talk !</p>
-            <a class="btn" href="mailto:suinext@gmail.com">CONTACT ME</a>
-        </div>
-    </div>
-    <div class="bottom-container">
-        <a class="footer-link hover-footer" href="https://www.linkedin.com/in/sameera-dissanayake-3b0820184/">LinkedIn</a>
-        <a class="footer-link hover-footer" href="https://wa.me/+94719940899/">Whatsapp</a>
-        <a class="footer-link hover-footer" href="https://github.com/suinext">Github</a>
-        <p class="copyright">© Sameera Dissanayake</p>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 
 </body>
 
